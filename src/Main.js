@@ -1,6 +1,6 @@
 import React from 'react';
 import Draggable from 'react-draggable';
-import sota_logo from './sota_logo.svg';
+import sota_logo from './sota.svg';
 import dance from './7aJt.gif';
 import sprite from './sprite.jpg';
 import './Main.css'
@@ -71,9 +71,8 @@ const TextBox = () => {
       <Draggable defaultPosition={{x: 682, y: 0}}>
         <div className="box">
         <span class="title">Hello</span>
-        
-          <p>I'm Sota Makino, a 22 year old software engineer from Kyoto. Now, honestly  I do not have such a product to exhibit, so I will share my favorite music, video and drink.</p>
-          <div>&nbsp;</div>
+          <p>I'm Sota, a 22-year-old software engineer from Kyoto. Because the product that makes the world happy is under development, I share with you my favorite music, video and drink.</p>
+          <p>*Cards are draggable.</p>
           <a target="_blank" rel="noopener noreferrer" href="https://github.com/SotaMakino">Github</a>
           &nbsp;
           <span class="slash">/</span>
