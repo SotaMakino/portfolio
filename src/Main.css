@@ -1,0 +1,153 @@
+.box {
+    border: 1px solid black;
+    font-size: 16px;
+    font-family: 'Work Sans';
+    font-weight: 300;
+    letter-spacing: 0.65px;
+    background: #fff;
+    width: 290px;
+    height: 280px;
+    margin: 10px;
+    padding: 10px;
+    float: left;
+    position: absolute;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    z-index: 3;
+  }
+
+  .box:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
+.boxVideo {
+    background: #fff;
+    border: 1px solid black;
+    border-radius: 3px;
+    width: 560px;
+    height: 360px;
+    margin: 10px;
+    padding: 10px;
+    float: left;
+    position: absolute;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.boxVideo:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.tile {
+  background: #fff;
+  border: 1px solid black;
+    border-radius: 3px;
+    width: 350px;
+    height: 210px;
+    margin: 10px;
+    padding: 10px;
+    float: left;
+    position: absolute;
+    z-index: 2;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.tile:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+img.sprite {
+  width: 350px;
+  height: 180px;
+  margin-top: 5px;
+  user-select: none;
+  -webkit-user-select: none;
+  }
+
+.music {
+  background: #fff;
+  border: 1px solid black;
+    border-radius: 3px;
+    width: 300px;
+    height: 150px;
+    margin: 10px;
+    padding: 10px;
+    float: left;
+    position: absolute;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.music:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.react {
+  position: right 0%;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  width: 50px;
+  top: 10%;
+  right: 0%;
+}
+
+.web-logo {
+  width: 200px;
+  height: 150px;
+}
+
+#button {
+  padding: 10px 25px 10px 25px;
+  border-radius: 10px;
+  border: 5px transparent;
+  border-bottom-color: rgba(0,0,0,0.35);
+  cursor: pointer;
+  outline: 0 !important;
+  user-select:none;
+
+  animation: pulse 1s infinite alternate;
+  transition: background 0.4s, border 0.2s, margin 0.2s;
+}
+#button:hover {
+  background: #00d8ff;
+
+  animation: none;
+}
+#button:active {
+  border-bottom-width: 0;
+  margin-top: 5px;
+}
+
+.dance {
+position: absolute;
+top: 40%;
+left: 50%;
+-webkit-transform: translate(-50%,-50%);
+-moz-transform: translate(-50%,-50%);
+-ms-transform: translate(-50%,-50%);
+-o-transform: translate(-50%,-50%);
+transform: translate(-50%,-50%);;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+span.title {
+  font-weight: bold;
+}
+
+span.slash {
+  color: #00d8ff;
+  font-weight: bold;
+  vertical-align: super;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
