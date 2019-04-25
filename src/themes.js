@@ -1,12 +1,12 @@
 const themes = [
   {
-    name: 'white',
-    colorAlternate: '#fcf8f3',
-  },
-  {
     name: 'orange',
     firstTime: true,
     colorAlternate: '#aedadd',
+  },
+  {
+    name: 'white',
+    colorAlternate: '#fcf8f3',
   },
   {
     name: 'lemon',

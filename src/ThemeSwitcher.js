@@ -8,10 +8,9 @@ export default class ThemeSwitcher extends React.Component {
   constructor(props) {
     super(props);
     const allThemes = getThemes();
-    const firstTimeTheme = allThemes.filter(theme => theme.firstTime === true);
 
     this.state = {
-      theme: firstTimeTheme[0]
+      theme: allThemes[0]
     }
 
     this.switchTheme = this.switchTheme.bind(this);
